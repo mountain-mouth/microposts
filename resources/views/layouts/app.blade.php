@@ -11,7 +11,7 @@
         @include('commons.navbar')
         
         <div class="container">
-            @include('commons.eroor_messages')
+            @include('commons.error_messages')
             
             @yield('content')
         </div>
